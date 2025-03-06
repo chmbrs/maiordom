@@ -2,21 +2,20 @@
 
 ## Overview
 
-mAIordom is designed to assist you in generating quick and full answers based on content.  
+mAIordom is designed to assist you in generating quick and full answers based on content and a specific AI character.  
 It supports various input methods such as clipboard pasting, screenshot capturing, and direct sound mic recording.  
 Additionally, it supports **local LLM inference** using **Ollama**, allowing users to run models like **Qwen2.5-Coder** efficiently on their machines.
 
 ## Features
-
-- **Clipboard Pasting**: Allows users to paste text from the clipboard and update the transcription area.
+- **AI Character**: Lets users choose the AI character to answer. ex: Python Specialist or Carl Jung.
 - **Screenshot Capturing**: Enables users to capture text around the mouse cursor and update the transcription area.
+- **Clipboard Pasting**: Allows users to paste text from the clipboard and update the transcription area.
 - **Audio Recording**: Users can record audio using their microphone and transcribe it into text.
 - **Quick Answer Generation**: Provides quick answers based on the transcribed text.
 - **Full Answer Generation**: Generates more detailed answers based on the transcribed text.
 - **Local LLM Support** (via **Ollama**): Run LLMs like **Qwen2.5-Coder** locally for privacy and performance.
 
 ## Setup
-
 1. **Install Dependencies**:
    - Ensure you have Python >= 3.12 installed.
    - Recommended: use a virtual env
